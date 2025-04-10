@@ -66,14 +66,17 @@
       }
       .modal-content {
         flex-direction: column;
-        width: 95%;
-        height: 95%;
+        width: 90%;
+        height: 90%;
       }
     
       .modal .modal-content .inner {
         flex-direction: column;
       }
-    
+      .modal video {
+        max-width: 100%;
+        height: auto;
+      }
       .video-section, .planning {
         width: 100%;
       }
@@ -90,30 +93,12 @@
         height: auto;
       }
     
-     .mySwiper .swiper-wrapper .swiper-slide {
-      flex-direction: column;
-      height: auto;
-      }
-    
-      .mySwiper .swiper-wrapper  .swiper-slide .description {
-        width: 90%;
-        text-align: center;
-        margin: 1rem 0;
-      }
-      .mySwiper .swiper-wrapper  .swiper-slide .description h1 {
-        margin-bottom: 10%;
-      }
+
       .mySwiper .swiper-wrapper  .swiper-slide img {
         width: 100%;
         max-width: 100%;
       }
     
-      .custom-pagination {
-        display: flex;
-        justify-content: center;
-        margin: 1rem 0;
-        gap: 0.5rem;
-      }
       
       .final-message .thanks {
         font-size: 2.5rem;

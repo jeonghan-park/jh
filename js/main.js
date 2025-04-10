@@ -44,8 +44,12 @@ $(function () {
         video.pause();
         video.currentTime = 0;
       }
-    },);
+    },200);
   });
+
+  $('.custom-pagination img').click(function(){
+    $(this).addClass('active').siblings().removeClass('active')
+  })
 });
 $(document).on('keydown', function (e) {
   if (e.key === "Escape") {

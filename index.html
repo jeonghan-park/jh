@@ -22,11 +22,11 @@
   <meta property="og:site_name" content="cinema">
   <meta property="og:title" content="박정한 포트폴리오">
   <meta property="og:description" content="영상편집자 포트폴리오">
-  <meta property="og:image" content="images/10179962.jpg">
+  <meta property="og:image" content="images/thumbnail.jpg">
   <meta property="og:image:width" content="400">
   <meta property="og:image:height" content="300">
 
-  <link rel="icon" href="favicon.ico.png">
+  <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="css/fullpage.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
@@ -362,7 +362,7 @@
             </div>
           </div>
         </div>
-        <img src="images/icon/go top.png" alt="GoTop" class="gotop">
+        <div class="gotop"><img src="images/icon/go top.png" alt="GoTop"></div>
       </div>
     </section>
 
@@ -390,15 +390,6 @@
       });
     });
     updatePagination(); // 초기화
-
-    var swiper = new Swiper(".mySwiper", {
-  effect: window.innerWidth <= 425 ? "slide" : "cards",
-  grabCursor: true,
-  loop: false,
-  cardsEffect: {
-    slideShadows: false
-  }
-});
   </script>
 </body>
 
